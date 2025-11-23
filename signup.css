@@ -1,0 +1,28 @@
+@import url(./style.css);
+
+.top .sig{
+    z-index: 1;
+    right: 1px;
+      background-image: var(--btn);
+      color: white;
+font-size: larger;
+    
+}
+.top .ln{
+    left: 1px;
+   background-color: white;
+   font-size: larger;
+ 
+ 
+} 
+
+.pas{
+    top: 220px;
+}
+.cpas{
+    top: 280px;
+}
+
+.slast{
+    bottom: 120px;
+}

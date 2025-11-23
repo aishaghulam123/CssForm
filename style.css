@@ -1,0 +1,118 @@
+:root{
+        --btn:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg:linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    --input-focus:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-top: 20px;
+  background-image: var(--bg);
+     /* background-image: linear-gradient(rgb(0, 18, 175), rgb(93, 0, 255) ,black); */
+}
+.box{
+    width: 400px;
+    height: 520px;
+    margin: 0 auto;
+    padding-top: 40px;
+ 
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+.box h1{
+    text-align: center;
+    
+}
+
+.top button{
+    position: absolute;
+   width: 210px;
+    height: 40px;
+    border-radius: 30px;
+ border: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.top .su{
+    right: 1px;
+    background-color: white;
+    font-size: larger;
+    
+}
+.top .log{
+    left: 1px;
+   z-index: 1;
+   background-image: var(--btn);
+   color: white;
+font-size: larger;
+ 
+} 
+
+input{
+    display: block;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+text-align: center;
+font-size: large;
+}
+.pass{
+    top: 220px;
+}
+
+.p{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: rgb(14, 57, 248);
+    font-size: large;
+}
+.last{
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-image: var(--btn);
+color: white;
+font-size: larger;
+
+
+
+}
+.last:hover{
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+ 
+.p2{
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+  
+    font-size: large;
+}
+.p2 a{
+  color: rgb(14, 57, 248);
+   text-decoration: none;
+
+}
+
+
